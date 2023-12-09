@@ -1,5 +1,5 @@
 # Traveler-s-auto-insurance-model.
-For this case competition, task is to provide a method for predicting the claim cost for each policy.
+For this case competition, the task is to provide a method for predicting the claim cost for each policy.
 
 ### Dataset Description
 The InsNova data set is based on one-year vehicle insurance policies from 2004 to 2005. There are 45,239 policies, of which around 6.8% had at least one claim.
@@ -50,4 +50,9 @@ The InsNova data set is based on one-year vehicle insurance policies from 2004 t
 ***claimcst0***- Claim amount
 
 
+### Chose methodology:
+
+***Two-step model:***
+The first step uses a count model to predict the frequency of claims.
+The second step employs a Regression model to estimate the severity of claims.
 
