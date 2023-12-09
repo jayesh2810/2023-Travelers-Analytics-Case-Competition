@@ -4,7 +4,7 @@ For this case competition, the task is to provide a method for predicting the cl
 ### <ins>Dataset Description</ins>
 The InsNova data set is based on one-year vehicle insurance policies from 2004 to 2005. There are 45,239 policies, of which around 6.8% had at least one claim.
 
-### Variable Descriptions:
+### <ins>Variable Descriptions</ins>:
 ***id***- Policy key
 
 ***veh_value***- Market value of the vehicle in $10,000's
