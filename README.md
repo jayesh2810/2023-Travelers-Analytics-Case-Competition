@@ -1,7 +1,7 @@
 # Traveler-s-auto-insurance-model.
 For this case competition, the task is to provide a method for predicting the claim cost for each policy.
 
-### Dataset Description
+### <ins>Dataset Description</ins>
 The InsNova data set is based on one-year vehicle insurance policies from 2004 to 2005. There are 45,239 policies, of which around 6.8% had at least one claim.
 
 ### Variable Descriptions:
@@ -50,7 +50,7 @@ The InsNova data set is based on one-year vehicle insurance policies from 2004 t
 ***claimcst0***- Claim amount
 
 
-### Chosen methodology:
+### Chosen methodology for claim cost predictions:
 
 ***Two-step model:***
 The first step uses a count model to predict the frequency of claims.
@@ -71,4 +71,3 @@ For the regression model, we have used the GLM with inverse Gaussian distributio
 2.) 10 fold cross validation\
 3.) Average gini across all folds\
 4.) Bootstrapping for the reliability of model coefficients.
-
