@@ -50,6 +50,9 @@ The InsNova data set is based on one-year vehicle insurance policies from 2004 t
 ***claimcst0***- Claim amount
 
 
+
+
+
 ### Chosen methodology for claim cost predictions:
 
 ***Two-step model:***
