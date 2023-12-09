@@ -63,7 +63,7 @@ For the regression model, we have used the GLM with inverse Gaussian distributio
 1.) Forward/Backward selection.\
 2.) P-value significance.\
 3.) Benchmarking trial and error.\
-4.) Research and development.\
+4.) Research and development.
  
 
 ### Model evaluation metrics:
