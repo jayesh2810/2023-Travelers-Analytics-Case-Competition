@@ -50,9 +50,25 @@ The InsNova data set is based on one-year vehicle insurance policies from 2004 t
 ***claimcst0***- Claim amount
 
 
-### Chose methodology:
+### Chosen methodology:
 
 ***Two-step model:***
 The first step uses a count model to predict the frequency of claims.
 The second step employs a Regression model to estimate the severity of claims.
+
+For the classification model, we have used GLM with Poisson distribution.\
+For the regression model, we have used the GLM with inverse Gaussian distribution.
+
+### Variable selection methodology:
+1.) Forward/Backward selection.\
+2.) P-value significance.\
+3.) Benchmarking trial and error.\
+4.) Research and development.\
+ 
+
+### Model evaluation metrics:
+1.) Normalized Gini Coefficient\
+2.) 10 fold cross validation\
+3.) Average gini across all folds\
+4.) Bootstrapping for the reliability of model coefficients.
 
