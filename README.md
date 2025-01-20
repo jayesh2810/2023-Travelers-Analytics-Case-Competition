@@ -60,7 +60,7 @@ The first step uses a count model to predict the frequency of claims.
 The second step employs a Regression model to estimate the severity of claims.
 
 For the classification model, we have used GLM with Poisson distribution.\
-For the regression model, we have used the GLM with inverse Gaussian distribution.
+For the regression model, we have used the GLM with Gamma distribution.
 
 ### Variable selection methodology:
 1.) Forward/Backward selection.\
